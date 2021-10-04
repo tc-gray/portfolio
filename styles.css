@@ -1,9 +1,29 @@
+body {
+  font-family: 'lora', serif;
+}
+
+hr {
+  width: 80%;
+  margin: auto;
+}
+
+/* Nav */
+
+.nav-link {
+  color: gray;
+}
+
+.nav-link:hover {
+  color: #246963;
+}
+
+/* Home CSS */
+
 .d-flex {
   flex-direction: column;
 }
 
 .profile-img {
-  /* border: solid black 5px; */
   width: 100%;
   height: 100%;
 }
@@ -12,8 +32,8 @@
   text-decoration: none;
   font-size: 5rem;
   color: black;
-  font-family: 'lora', serif;
   font-weight: 600;
+  width: fit-content;
 }
 
 #text-im, #text-tegan {
@@ -28,3 +48,15 @@
 
 #text-tegan:hover span {display:none}
 #text-tegan:hover:before {content:"Contact"}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+/* About Me  */
+
+.about-me-img {
+  width: 100%;
+}
