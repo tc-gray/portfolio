@@ -60,3 +60,9 @@ hr {
 .about-me-img {
   width: 100%;
 }
+
+/* Work */
+
+.font-italic {
+  font-style: italic;
+}
